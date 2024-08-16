@@ -1,0 +1,77 @@
+/* General navbar styles */
+.navbar {
+    background-color: #a0ccdf; /* Dark green background */
+    padding: 0.5rem 1rem; /* Space around the content */
+  }
+  
+  .navbar-brand {
+    font-size: 2rem;
+    color: rgb(248, 221, 221); /* White text */
+  }
+
+  
+  .navbar-logo {
+    height: 40px;
+    margin-right: 0.5rem;
+  }
+  
+  /* Navbar links and buttons */
+  .nav-link {
+    margin-left: 0.rem;
+  }
+  
+  .nav-link button {
+    border-radius: 0.25rem; /* Rounded corners */
+    font-size: 1rem; /* Button text size */
+    padding: 0.5rem 1rem; /* Button padding */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+  }
+  
+  .btn-outline-light {
+    border-color: rgb(146, 32, 32);
+    color: rgb(31, 2, 2);
+   
+  }
+  
+  .btn-outline-light:hover {
+    background-color: #fff;
+    color: #a3b3a7;
+  }
+  
+  .btn-outline-info {
+    border-color: #17a2b8;
+    color: #17a2b8;
+  }
+  
+  .btn-outline-info:hover {
+    background-color: #17a2b8;
+    color: #fff;
+  }
+  
+  /* Welcome message */
+  .welcome-message {
+    margin-left: 1rem;
+    font-size: 1rem;
+    color: #fff;
+  }
+  
+  .text-warning {
+    color: #ffc107; /* Yellow text */
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .navbar-brand {
+      font-size: 1.25rem;
+    }
+  
+    .nav-link button {
+      font-size: 0.875rem;
+      padding: 0.4rem 0.8rem;
+    }
+  
+    .navbar-logo {
+      height: 30px;
+    }
+  }
+  
